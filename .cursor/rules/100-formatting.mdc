@@ -1,0 +1,15 @@
+---
+description: Formatting rules for tool entries in the Awesome AI and Programming Tools list
+globs: ["README.md", "**/*.md"]
+alwaysApply: false
+---
+# Tool Entry Formatting
+
+## Formatting Rules
+- Format each tool entry as an unordered list item (`-`) with:
+  - Tool name in bold (`**Tool Name**`).
+  - A short description (1-2 sentences, max 280 characters).
+  - A link to the tool’s official website or repository in square brackets (`[Link](https://example.com)`).
+- Example:
+  ```markdown
+  - **TensorFlow** - Open-source ML framework for building and deploying models. [Link](https://www.tensorflow.org/)

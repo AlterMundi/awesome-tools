@@ -1,0 +1,22 @@
+---
+description: Core structure and context for the Awesome AI and Programming Tools list
+alwaysApply: true
+---
+# Awesome AI and Programming Tools Structure
+
+## Purpose
+This repository is a curated Awesome List of AI and programming tools, following the conventions of Awesome Lists (e.g., https://github.com/sindresorhus/awesome). It provides a well-organized, community-driven collection of tools with clear descriptions and links.
+
+## README Structure
+- **Header**: Start `README.md` with `# Awesome AI and Programming Tools` and a brief introduction (2-3 sentences) describing the purpose.
+- **Table of Contents**: Include a Markdown TOC with links to each category section (e.g., `[Machine Learning](#machine-learning)`).
+- **Categories**: Organize tools into logical categories (e.g., Machine Learning, IDEs, Data Visualization) using `##` headings.
+- **Contributing Section**: Include a `## Contributing` section linking to `[Contributing](contributing.md)` or summarizing contribution guidelines.
+- **License Section**: Include a `## License` section specifying the MIT License.
+
+## Best Practices
+- Ensure all tools are high-quality and relevant to AI or programming.
+- Check for duplicate tools before adding new entries.
+- Update the Table of Contents when adding new categories.
+- Use relative paths for internal links (e.g., `[Contributing](contributing.md)`).
+- Keep the tone neutral and professional, avoiding promotional language.
