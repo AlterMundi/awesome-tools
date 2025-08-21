@@ -20,3 +20,13 @@ This repository is a curated Awesome List of AI and programming tools, following
 - Update the Table of Contents when adding new categories.
 - Use relative paths for internal links (e.g., `[Contributing](contributing.md)`).
 - Keep the tone neutral and professional, avoiding promotional language.
+
+## Tool Analysis and Categorization
+- When the prompt includes a list of links to tools, automatically analyze each link:
+  - Browse or summarize the tool's official page to determine its primary functionality and key features.
+  - Generate a short, concise description (1-2 sentences, max 280 characters) based on the analysis.
+  - Assign the tool to a logical category (e.g., "Web Scraping and Data Extraction" for scraping tools, "AI Development Frameworks" for SDKs, "IDEs / Development Environments" for editors). If the category doesn't fit existing ones, create a new relevant category or use "Miscellaneous AI Tools".
+  - Ensure the description is neutral, factual, and highlights the tool's main purpose.
+- After analysis, add the tool to the appropriate category in `README.md` using the formatting from `@100-formatting` and `@tool-entry-template`.
+- If analysis requires external information, use available tools or assume based on URL if direct access isn't possible.
+- Avoid duplicates by checking existing entries before adding.
